@@ -1,0 +1,165 @@
+import becker.robots.City;
+import becker.robots.Direction;
+import becker.robots.Robot; //import the becker library
+
+/**
+ * RobotTask
+ * Get robot though a maze
+ * U1A1
+ */
+
+public class RobotTask {
+
+	/**
+	 * description
+	 * @param none
+	 * @return void
+	 */
+	public void run(){
+
+		//build a city called maze
+		City maze = new City("U1Maze.txt");
+		maze.showThingCounts(true);
+
+		//build a robot in the city maze
+		Robot r = new Robot(maze, 4, 4, Direction.NORTH, 0);
+
+		//clear the maze
+
+		r.pickThing();
+		r.pickThing();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.pickThing();
+		r.pickThing();
+		r.pickThing();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.pickThing();
+		r.pickThing();
+		r.pickThing();
+		r.pickThing();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+		r.move();
+        r.pickThing();		
+        r.pickThing();
+        r.turnLeft();
+        r.turnLeft();
+        r.move();
+        r.move();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.turnLeft();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.turnLeft();
+        r.turnLeft();
+        r.move();
+        r.move();
+        r.move();
+        r.move();
+        r.move();
+        r.pickThing();
+        r.pickThing();
+        r.turnLeft();
+        r.turnLeft();
+        r.move();
+        r.move();
+        r.move();
+        r.move();
+        r.move();
+        r.toString();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.turnLeft();
+        r.turnLeft();
+        r.move();
+        r.turnLeft();
+        r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.turnLeft();
+		r.move();
+		r.turnLeft();
+		r.turnLeft();
+		r.turnLeft();
+		r.move();
+		r.move();
+		r.turnLeft();
+		r.move();
+		
+		
+		System.out.println("finished");
+
+	}
+
+
+}
